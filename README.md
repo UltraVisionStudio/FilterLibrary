@@ -1,5 +1,6 @@
 Android filter library Easy to use android photo filter library.
 
+
 Step 1. Add the JitPack repository to your build file
 
 Add it in your root build.gradle at the end of repositories:
@@ -27,7 +28,7 @@ Step 2. Add the dependency
 
 Sample code:
 
-PhotoFilter photoFilter;
+	PhotoFilter photoFilter;
 	photoFilter=new PhotoFilter();
 	......
 	imageView.setImageBitmap(photoFilter.five(getApplicationContext(),bitmap));
